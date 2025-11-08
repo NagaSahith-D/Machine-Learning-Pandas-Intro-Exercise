@@ -25,19 +25,32 @@ Data Manipulation & Analysis: Pandas
 -	car-sales-missing-data.csv
 -	car-sales.csv
 ## Key Syntax and concepts used (df = DataFrame)
-	import pandas as pd        			##imports panda library
-	df = pd.read_csv("car-sales.csv")      		## read CSV file
-	df.head()                            			## preview top 5 rows
-	df.info()                              			## column info
-	df.describe()                          			## summary statistics
-	df.shape                               			## displays rows, columns shape
-	df.columns    					## list column names
-	df["Make"]                             			## select one column (Series)
-	df[["Make", "Price"]]                  			## select multiple columns
-	df.loc[0]                            				## select row by label/index
-	df.iloc[0:5]                           			## select first 5 rows (position)
-	df[df["Price"] > 20000]                			## boolean filtering
-	df[df["Colour"].isin(["Red", "Blue"])] 		## filter using a list
+•	import pandas as pd      				##imports panda library
+
+•	df = pd.read_csv("car-sales.csv")      		## read CSV file
+
+•	df.head()                            			## preview top 5 rows
+
+•	df.info()                              			## column info
+
+•	df.describe()                          			## summary statistics
+
+•	df.shape                               			## displays rows, columns shape
+
+•	df.columns    					## list column names
+
+•	df["Make"]                             			## select one column (Series)
+
+•	df[["Make", "Price"]]                  			## select multiple columns
+
+•	df.loc[0]                            				## select row by label/index
+
+•	df.iloc[0:5]                           			## select first 5 rows (position)
+
+•	df[df["Price"] > 20000]                			## boolean filtering
+
+•	df[df["Colour"].isin(["Red", "Blue"])] 		## filter using a list
+
 
     ## What Ive Learned:
     
