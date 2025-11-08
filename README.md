@@ -13,10 +13,15 @@ Notebooks: 			Jupyter Notebooks
 
 Data Manipulation & Analysis: Pandas
 1. What are pandas?
+
 •	Pandas builds on NumPy to provide powerful data structures i.e., Series and DataFrames, designed for analyzing structured data.
+
 •	Ideal for Loading and cleaning data from CSV, Excel, JSON, etc.
+
 •	Exploratory data analysis (EDA) using filtering, grouping, and aggregation
+
 •	Handling missing values and reshaping datasets
+
 •	Merging and joining data from multiple sources
 
 ## For this exercise ive used a car-sales data set which is in csv format, then done data manipulation and analysis by using Pandas library.
